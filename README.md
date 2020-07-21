@@ -19,9 +19,9 @@ train.py:             train the designed network
 test.py:              get the result of road intersection classification
 
 ## 3.Network Description
-conv1 -> pool1 -> conv2 -> pool2 -> conv3 -> pool3 -> fc1 -> fc2 -> fc3 -> softmax
+image -> conv1 -> pool1 -> conv2 -> pool2 -> conv3 -> pool3 -> fc1 -> fc2 -> fc3 -> softmax -> class
 
-## 4.Functios:
+## 4.Functions:
 Pool: max_pool
 
 Activate: ReLU
